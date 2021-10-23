@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFun(){
+            document.bgColor= "yellow";
+            document.getDlementById("demo").innerHTML = "자바스크립트";
+        }
+    </script>
+
+</head>
+<body>
+    <div id="demo">여기에 출력</div>
+    <script>
+        document.write(안녕하세요~~ BTS입니다");
+        document.bgColor="darkGray";
+    </script>
+    <button onclick="myFun();">Try it</button>
+    <header>
+        <img src="./image 방탄.jfif" alt="logo">
+        <h1>BTS PERMISSION TO DANCE ON STAGE</h1>
+        <nav>
+            <ul>
+                <li>TOUR MERCH</li>
+                <li>Themed Merch</li>
+                <li>MERCH</li>
+                <li>COllAB</li>
+            </ul>
+        </nav>
+    </header>
+    <div id="login">
+        <from action="#" method="GET">
+            아이디 : <input type="text" name="name" > <br>
+            비밀번호 : <input type="password" name="pass" id="pass"> <br>
+            <input type="submit" value="확인">
+            <input type="reset" value="취소">
+        </from>
+    </div>
+    <section>image</section>
+       <h2>BTS (방탄소년단) 'Permission to Dance' Official Teaser
+       <audio src="./BTS (방탄소년단) PERMISSION TO DANCE ON STAGE Official Teaser _ We’re just getting started - from YouTube (2).mp3"</audio>
+    <footer> &copy; BTS</footer>
+    
+</body>
+</html>
